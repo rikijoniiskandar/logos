@@ -1,0 +1,27 @@
+{
+  "chromiumPath": "/usr/bin/chromium-browser",
+  "chromedriverPath": "/usr/bin/chromedriver",
+  "geckodriverPath": "/usr/bin/geckodriver",
+  "webUrl": "https://google.com",
+  "username": "timur",
+  "password": "12345678",
+  "dashboardUrl": "https://ptpn4.handal.in/timur/scada/all-unit",
+  "waitAfterLoginUrlContains": "project/apps/index#page=1",
+  "mqttHost": "pks12.handal.in",
+  "mqttPort": 9006,
+  "mqttProtocol": "wss",
+  "mqttUsername": "xtend-idn",
+  "mqttPassword": "Xtend@idn1808",
+  "mqttTopic": "scrapTest/ptpn",
+  "scrapeIntervalMs": 15000,
+  "sensorPosition": {
+    "translate(25.9 240.65)": "Boiler 1",
+    "translate(25.9 330.65)": "Boiler 2",
+    "translate(496.45 73)": "Sterilizer 1",
+    "translate(629.55 73)": "Sterilizer 2",
+    "translate(779.1 73)": "Sterilizer 3",
+    "translate(227.1 420)": "BPV",
+    "translate(674.1 556.65)": "CST 1"
+  },
+  "idWaterLevelA": "NumShowIput_7_22-at"
+}
